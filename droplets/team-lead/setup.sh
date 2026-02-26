@@ -13,7 +13,7 @@
 
 set -e
 
-REPO_URL="${OPENCLAW_REPO_URL:-git@github.com:REPLACE_ME/ClawDevTeam.git}"
+REPO_URL="${OPENCLAW_REPO_URL:-https://github.com/noamisepic/ClawDevTeam.git}"
 REPO_DIR="/opt/openclaw/repo"
 AGENT_ID="team-lead"
 OPENCLAW_WORKSPACE="$HOME/.openclaw/agents/${AGENT_ID}"
